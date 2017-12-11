@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/top_stories/top_stories",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fdb657",
+    "navigationBarTitleText": "Hacky Sack News",
+    "navigationBarTextStyle": "black"
+  }
+}

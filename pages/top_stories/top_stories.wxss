@@ -1,0 +1,77 @@
+.banner {
+  background-color: rgb(253, 182, 87);
+  min-height: 60px;
+  display: flex;
+}
+
+.banner .hamburger_icon {
+  width: 20vw;
+}
+
+.banner .banner_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner_text .page_name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  align-self: top;
+  flex-grow: 1;
+}
+
+.banner_text .last_updated {
+  font-size: 0.8rem;
+  flex-grow: 1;
+  align-self: bottom;
+}
+
+.banner .search_icon {
+  align-self: center;
+  flex-grow: 1;
+  text-align: right;
+  padding: 0 10px;
+}
+
+.story {
+  display: flex;
+  flex-direction: row;
+}
+
+.upvote_container {
+  background-color: rgb(254, 223, 181);
+  flex: auto;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.upvote_count {
+  font-size: 0.6rem;
+  color: #6a6a6a;
+}
+
+.story_info {
+  background-color: rgb(255, 243, 225);
+  flex: auto;
+  padding: 5px 10px 5px 10px;
+  width: 80vw;
+}
+
+.title {
+  font-size: 0.8rem;
+  color: #050505;
+}
+
+.url {
+  font-size: 0.5rem;
+  color: #848484;
+  font-style: italic;
+}
+
+.time_and_author {
+  font-size: 0.5rem;
+  color: #848484;
+}

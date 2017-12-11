@@ -1,0 +1,34 @@
+<view class="banner">
+  <view class="hamburger_icon"></view>
+  <view class="banner_text">
+    <text class="page_name">Top Stories</text>
+    <text class="last_updated">Last updated 14 hr. ago</text>
+  </view>
+  <view class="search_icon">
+    <icon type="search" size="24" color="#000" />
+  </view>
+</view>
+
+<view class="stories">
+  <view wx:key="id" wx:for="{{stories}}" wx:for-item="story" wx:for-index="idx" class="story">
+    <view class="upvote_container">
+      <view class="position">
+        {{ idx + 1 }}
+      </view>
+      <view class="upvote_count">
+        {{ story.upvote_count }}p
+      </view>
+    </view>
+    <view class="story_info">
+      <view class="title">
+        {{ story.title }}
+      </view>
+      <view class="url">
+        {{ story.url }}
+      </view>
+      <view class="time_and_author">
+        1h - stevejackson
+      </view>
+    </view>
+  </view>
+</view>
